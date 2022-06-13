@@ -5,7 +5,7 @@
     "engines": {
         "ghost": ">=5.0.0"
     },
-    "license": "MIT",
+    "private": true,
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg",
         "mobile": "assets/screenshot-mobile.jpg"
@@ -170,5 +170,6 @@
         "extends": [
             "@tryghost:theme"
         ]
-    }
+    },
+    "dependencies": {}
 }
